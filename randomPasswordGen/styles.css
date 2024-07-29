@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.checkboxes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#passwordLength{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+}
+
+button{
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: hsla(280, 70%, 40%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(280, 80%, 60%);
+}
+
+button:active{
+    background-color: hsl(250, 79%, 78%);
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5rem;
+    accent-color: purple;
+  }
